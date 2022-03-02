@@ -1,0 +1,84 @@
+@use "../utilitarios"as *;
+
+.conteudo{
+
+    background-color: $azul-dark;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0rem;
+    margin-left: 0rem;
+    flex-direction: column;
+
+    &__card{
+        height: 300px;
+        width: 520px;
+        background-color: $azul-escuro;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        @include celular{
+            width: 350px;
+        }
+        
+
+    }
+    &__titulo{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        font-size: 0.8rem;
+        color: $verde;
+        @include Manrope;
+        text-transform: uppercase;
+        letter-spacing: 0.3rem;
+    }
+    &__texto{
+        color: $ciano;
+        height: 150px;
+        font-size: 1.5rem;
+        text-align: center;
+        @include Manrope;
+        margin-right: 2rem;
+        margin-left: 2rem;
+
+    }
+    &__play{
+        @include celular{
+            display: none;
+        }
+    }    
+    &__play-mobile{
+        display: none;
+        @include celular{
+            display: block;
+        }
+        
+    }
+    &__circulo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 60px;
+        width: 60px;
+        background-color: $verde;
+        border-radius: 50%;
+        position: relative;
+        top: 30px;
+        transition: all 100ms ease-in-out;
+        &:hover{
+            box-shadow: 0px 0px 20px 4px #52ffa8
+        }
+    }
+}
+.attribution{
+    position: absolute;
+    top: 90%;
+    color: white;
+
+}
+.attribution a{
+    color: white;
+
+}

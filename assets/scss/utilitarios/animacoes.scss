@@ -1,0 +1,36 @@
+@keyframes slide-in{
+    from{
+        top: -80%;
+
+    }
+    to{
+        top: 19%
+    }
+}
+@keyframes slide-out{
+    from{
+        top: 19%;
+
+    }
+    to{
+        top: -80%
+    }
+}
+@keyframes slide-in-t{
+    from{
+        top: -84.6%;
+
+    }
+    to{
+        top: 14.4%;
+    }
+}
+@keyframes slide-out-t{
+    from{
+        top: 14.4%;
+
+    }
+    to{
+        top: -84.6%;
+    }
+}

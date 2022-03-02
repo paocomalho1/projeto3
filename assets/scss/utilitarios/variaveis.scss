@@ -1,0 +1,19 @@
+//cores
+
+$ciano: hsl(193, 38%, 86%);
+$verde: hsl(150, 100%, 66%);
+
+//neutro
+
+$azul: hsl(217, 19%, 38%);
+$azul-escuro: hsl(217, 19%, 24);
+$azul-dark: hsl(218, 23%, 16%);
+
+//fontes
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+@mixin Manrope {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+}

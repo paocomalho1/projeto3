@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
+@keyframes slide-in {
+  from {
+    top: -80%;
+  }
+  to {
+    top: 19%;
+  }
+}
+@keyframes slide-out {
+  from {
+    top: 19%;
+  }
+  to {
+    top: -80%;
+  }
+}
+@keyframes slide-in-t {
+  from {
+    top: -84.6%;
+  }
+  to {
+    top: 14.4%;
+  }
+}
+@keyframes slide-out-t {
+  from {
+    top: 14.4%;
+  }
+  to {
+    top: -84.6%;
+  }
+}
+.conteudo {
+  background-color: #1f2632;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0rem;
+  margin-left: 0rem;
+  flex-direction: column;
+}
+.conteudo__card {
+  height: 300px;
+  width: 520px;
+  background-color: #323a49;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media only screen and (max-width: 767.98px) {
+  .conteudo__card {
+    width: 350px;
+  }
+}
+.conteudo__titulo {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-size: 0.8rem;
+  color: #52ffa8;
+  font-family: "Manrope", sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+}
+.conteudo__texto {
+  color: #cee3e9;
+  height: 150px;
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: "Manrope", sans-serif;
+  font-weight: 800;
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
+@media only screen and (max-width: 767.98px) {
+  .conteudo__play {
+    display: none;
+  }
+}
+.conteudo__play-mobile {
+  display: none;
+}
+@media only screen and (max-width: 767.98px) {
+  .conteudo__play-mobile {
+    display: block;
+  }
+}
+.conteudo__circulo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  width: 60px;
+  background-color: #52ffa8;
+  border-radius: 50%;
+  position: relative;
+  top: 30px;
+  transition: all 100ms ease-in-out;
+}
+.conteudo__circulo:hover {
+  box-shadow: 0px 0px 20px 4px #52ffa8;
+}
+
+.attribution {
+  position: absolute;
+  top: 90%;
+  color: white;
+}
+
+.attribution a {
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */
