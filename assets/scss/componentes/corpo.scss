@@ -14,8 +14,8 @@
     }
 
     &__card{
-        height: 300px;
-        width: 520px;
+        height: 350px;
+        width: 600px;
         background-color: $azul-escuro;
         border-radius: 20px;
         display: flex;
@@ -28,7 +28,7 @@
 
     }
     &__titulo{
-        margin-top: 2rem;
+        margin-top: 3rem;
         margin-bottom: 2rem;
         font-size: 0.8rem;
         color: $verde;
@@ -38,7 +38,7 @@
     }
     &__texto{
         color: $ciano;
-        height: 150px;
+        height: 184px;
         font-size: 1.5rem;
         text-align: center;
         @include Manrope;
@@ -53,6 +53,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-bottom: 1rem;
         @include celular{
             width: 295px;
             height: 16px;
