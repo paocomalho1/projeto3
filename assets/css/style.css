@@ -33,12 +33,12 @@
 }
 .conteudo {
   background-color: #1f2632;
-  height: 100vh;
   display: flex;
+  height: 100vh;
   justify-content: center;
   align-items: center;
   margin-left: 0rem;
-  margin-left: 0rem;
+  margin-right: 0rem;
   flex-direction: column;
 }
 .conteudo__card {
@@ -52,7 +52,7 @@
 }
 @media only screen and (max-width: 767.98px) {
   .conteudo__card {
-    width: 350px;
+    width: 320px;
   }
 }
 .conteudo__titulo {
@@ -74,6 +74,22 @@
   font-weight: 800;
   margin-right: 2rem;
   margin-left: 2rem;
+}
+@media only screen and (max-width: 767.98px) {
+  .conteudo__texto {
+    font-size: 1.2rem;
+  }
+}
+.conteudo__conteiner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media only screen and (max-width: 767.98px) {
+  .conteudo__conteiner {
+    width: 295px;
+    height: 16px;
+  }
 }
 @media only screen and (max-width: 767.98px) {
   .conteudo__play {
@@ -109,9 +125,19 @@
   top: 90%;
   color: white;
 }
+@media only screen and (max-width: 767.98px) {
+  .attribution {
+    font-size: 0.8rem;
+  }
+}
 
 .attribution a {
   color: white;
+}
+@media only screen and (max-width: 767.98px) {
+  .attribution a {
+    font-size: 0.8rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

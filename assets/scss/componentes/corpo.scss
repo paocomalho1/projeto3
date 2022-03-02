@@ -3,13 +3,15 @@
 .conteudo{
 
     background-color: $azul-dark;
-    height: 100vh;
     display: flex;
+    height: 100vh;
     justify-content: center;
     align-items: center;
     margin-left: 0rem;
-    margin-left: 0rem;
+    margin-right: 0rem;
     flex-direction: column;
+    @include celular{
+    }
 
     &__card{
         height: 300px;
@@ -20,7 +22,7 @@
         flex-direction: column;
         align-items: center;
         @include celular{
-            width: 350px;
+            width: 320px;
         }
         
 
@@ -42,20 +44,34 @@
         @include Manrope;
         margin-right: 2rem;
         margin-left: 2rem;
+        @include celular{
+            font-size: 1.2rem;
+        }
 
+    }
+    &__conteiner{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        @include celular{
+            width: 295px;
+            height: 16px;
+        }
+        
     }
     &__play{
         @include celular{
             display: none;
         }
-    }    
+        
+    }
     &__play-mobile{
         display: none;
         @include celular{
             display: block;
         }
-        
     }
+
     &__circulo{
         display: flex;
         align-items: center;
@@ -76,9 +92,14 @@
     position: absolute;
     top: 90%;
     color: white;
+    @include celular{
+        font-size: 0.8rem;
+    }
 
 }
 .attribution a{
     color: white;
-
+    @include celular{
+        font-size: 0.8rem;
+    }
 }
