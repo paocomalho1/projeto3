@@ -8,7 +8,6 @@ function advice(){
 }
 
 function mudarHtml(data){
-    console.log(data)
     const titulo = document.querySelector(".conteudo__titulo")
     const texto = document.querySelector(".conteudo__texto")
     titulo.innerHTML = `advice #${data.slip.id}`
